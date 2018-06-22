@@ -1,0 +1,24 @@
+.DS_Store
+.ssr
+.idea
+/designs
+/ignore
+/log/*.log
+/public
+/server/partials
+/tmp
+node_modules
+npm-debug.log*
+yarn-error.log*
+*.iml
+newrelic_agent.log
+dist
+coverage
+.nyc_output
+package-lock.json
+.env
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
